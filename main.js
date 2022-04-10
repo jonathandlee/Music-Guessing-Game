@@ -8666,8 +8666,8 @@ var app = (function () {
       subscribe: ue(
         [
           {
-            url: "https://www.youtube.com/watch?v=CyqMKCYBTzM",
-            answer: "hololive IDOL PROJECT",
+            url: "https://soundcloud.com/twst-swts/blue-clapper",
+            answer: "hololive IDOL PROJECT - BLUE CLAPPER",
           },
           {
             url: "https://soundcloud.com/joywave/buy-american",
