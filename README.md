@@ -14,7 +14,7 @@ HOW TO MAKE YOUR OWN HEARDLE (as of 4/4/22)
 
 1. Remix this project to create your own copy of the code
 2. Rename the project with the URL that you'd like to Heardle to live at
-3. Open the **index.html** file & replace **"Joywave"** with the artist/genre of your heardle
+3. Open the **index.html** file & replace **"Vtuber"** with the artist/genre of your heardle
 4. Open the **main.js** file and replace **"Joywave"** with the artist/genre of your heardle - This will update all the text boxes where Joywave shows up
 5. In the **main.js** file, replace **"@joywavez"** with your own twitter or instagram handle - This will update the contact info
 6. On line **3908** of **main.js**, update the **startDate** to the current date - This will start the counter for your Heardle
