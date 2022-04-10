@@ -1,8 +1,8 @@
-# joywave-heardle
+# vtuber-heardle
 
-A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Joywave songs.
+A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for vutber music.
 
-Each Joywave Heardle is randomly chosen from Joywave's discography.
+Each vtuber Heardle is randomly chosen from HoloLive, Nijjisanji, VShoujo, etc Dsicog.
 
 code edited from: [WJSN Heardle](https://github.com/haseul/wjsn-heardle)
 
