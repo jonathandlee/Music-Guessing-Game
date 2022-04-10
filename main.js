@@ -8592,8 +8592,8 @@ var app = (function () {
       "hololive IDOL PROJECT - BLUE CLAPPER",
       "Ethyria - God sees all",
       "Hoshimachi Suisei - GHOST",
-      "It's A Trip! - Joywave",
-      "Traveling at the Speed of Light - Joywave",
+      "Sakura Miko, Usada Pekora, Houshou Marine - Happy Rabbit PekoMikoMarine",
+      "Tsukino Mito - 浮遊感UFO (Fuyuukan UFO)",
       "AM - Joywave",
       "PM - Joywave",
       "Confidence - Joywave",
@@ -8666,7 +8666,7 @@ var app = (function () {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/user-629390899/blue-clapper",
+            url: "https://soundcloud.com/user-629390899/blue-clapper",  
             answer: "hololive IDOL PROJECT - BLUE CLAPPER",
           },
           {
@@ -8678,12 +8678,12 @@ var app = (function () {
             answer: "Hoshimachi Suisei - GHOST",
           },
           {
-            url: "https://soundcloud.com/joywave/its-a-trip",
-            answer: "It's A Trip! - Joywave",
+            url: "https://soundcloud.com/chris-doragon/vznmchtfvuox",
+            answer: "Sakura Miko, Usada Pekora, Houshou Marine - Happy Rabbit PekoMikoMarine",
           },
           {
-            url: "https://soundcloud.com/joywave/traveling-at-the-speed-of-1",
-            answer: "Traveling at the Speed of Light - Joywave",
+            url: "https://soundcloud.com/user-629390899/fuyuukan-ufo",
+            answer: "Tsukino Mito - 浮遊感UFO (Fuyuukan UFO)",
           },
           {
             url: "https://soundcloud.com/joywave/am",
