@@ -8590,8 +8590,8 @@ var app = (function () {
   });
   const Cn = ue([
       "hololive IDOL PROJECT - BLUE CLAPPER",
-      "Buy American - Joywave",
-      "When You're Bored - Joywave",
+      "Ethyria - God sees all",
+      "Hoshimachi Suisei - GHOST",
       "It's A Trip! - Joywave",
       "Traveling at the Speed of Light - Joywave",
       "AM - Joywave",
@@ -8666,16 +8666,16 @@ var app = (function () {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/twst-swts/blue-clapper",
+            url: "https://soundcloud.com/user-629390899/blue-clapper",
             answer: "hololive IDOL PROJECT - BLUE CLAPPER",
           },
           {
-            url: "https://soundcloud.com/joywave/buy-american",
-            answer: "Buy American - Joywave",
+            url: "https://soundcloud.com/user-629390899/god-sees-all",
+            answer: "Ethyria - God sees all",
           },
           {
-            url: "https://soundcloud.com/joywave/when-youre-bored",
-            answer: "When You're Bored - Joywave",
+            url: "https://soundcloud.com/user-629390899/ghost",
+            answer: "Hoshimachi Suisei - GHOST",
           },
           {
             url: "https://soundcloud.com/joywave/its-a-trip",
