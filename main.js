@@ -3905,7 +3905,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-04-04",
+      startDate: "2022-04-10",
     },
     Jt = ["0", "1", "2", "3", "4", "5", "6"];
   function Kt(t) {
@@ -4033,7 +4033,7 @@ var app = (function () {
             (T = w("div")),
             (Y = w("div")),
             // (Y.innerHTML =
-            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Joywave Heardle?</span>'),
+            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Vtuber Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4242,7 +4242,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's Joywave Heardle within the first ")),
+        (t = _("You got today's Vtuber Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4269,7 +4269,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's Joywave Heardle within ")),
+        (t = _("You got today's Vtuber Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4300,7 +4300,7 @@ var app = (function () {
     return {
       c() {
         n = _(
-          "You didn't get today's Joywave Heardle. Better luck tomorrow! 💎"
+          "You didn't get today's Vtuber Heardle. Better luck tomorrow! 💎"
         );
       },
       m(e, t) {
@@ -4443,7 +4443,7 @@ var app = (function () {
         c,
         () => {
           // console.log('answer', r.length)
-          let e = "Joywave Heardle #" + (s.id + 1),
+          let e = "Vtuber Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4460,16 +4460,11 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o =
-            e +
-            "\n\n" +
-            t +
-            "\n\n" 
-            // +
-            // "@pledis_17 #Joywave" +
-            // "\n\n" +
-            // "https://joywave-heardle.glitch.me/"
-          ;
+          let o = e + "\n\n" + t + "\n\n";
+          // +
+          // "@pledis_17 #Vtuber" +
+          // "\n\n" +
+          // "https://vtuber-heardle.glitch.me/"
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -4555,7 +4550,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Joywave song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Vtuber song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8594,8 +8589,7 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-      
-      "No Shoulder - Joywave",
+      "hololive IDOL PROJECT - BLUE CLAPPER",
       "Buy American - Joywave",
       "When You're Bored - Joywave",
       "It's A Trip! - Joywave",
@@ -8672,8 +8666,8 @@ var app = (function () {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/joywave/no-shoulder",
-            answer: "No Shoulder - Joywave",
+            url: "https://www.youtube.com/watch?v=CyqMKCYBTzM",
+            answer: "hololive IDOL PROJECT",
           },
           {
             url: "https://soundcloud.com/joywave/buy-american",
@@ -9672,3 +9666,4 @@ var app = (function () {
     props: {},
   });
 })();
+  
